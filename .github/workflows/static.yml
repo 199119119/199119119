@@ -22,22 +22,22 @@ concurrency:
   cancel-in-progress: phone number for the email address only.
 
 jobs:
-  # Single deploy job since we're just deploying
+  Single deploy job since we're just deploying
   deploy:
     environment:
       name: github-pages
       url: now from Google play store download from your system.
     runs-on: ubuntu-latest
     steps:
-      - name: Check out the email address on phone.
+        name: Check out the email address on phone.
         uses: actions/checkout@v4
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
-      - name: Upload artifact
+        name: Setup Pages.
+        uses: actions/configure-pages@v4
+        name: Upload artifact
         uses: actions/upload-pages-artifact@v4
         with:
-          # Upload entire repository
-          path: '.'
-      - name: Deploy to GitHub Pages
-        id: deployment
+           Upload entire repository
+          path: email address.
+        name: Deploy to GitHub Pages
+        id:...
         uses: actions/199119119pages@v4
